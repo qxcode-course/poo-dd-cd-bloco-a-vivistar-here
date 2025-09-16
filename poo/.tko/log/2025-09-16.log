@@ -26,3 +26,8 @@
 2025-09-16 20:19:36, EXEC, v:1, k:toalha, mode:LOCK, rate:0
 2025-09-16 20:21:33, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:20
 2025-09-16 20:21:48, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-16 20:23:32, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-16 20:23:44, MOVE, v:1, k:toalha, mode:BACK
+2025-09-16 20:23:48, MOVE, v:1, k:toalha, mode:PICK
+2025-09-16 20:23:51, MOVE, v:1, k:toalha, mode:BACK
+2025-09-16 20:24:38, SELF, v:1, k:toalha, rate:30, human:monitor, guide:aula, alone:1, study:35
