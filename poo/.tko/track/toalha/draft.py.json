@@ -67,8 +67,108 @@
         },
         {
             "label": "2025-09-16_20-21-33",
-            "content": "class Towel:\n    def __init__(self, color: str, size: str):\n        self.color = 'white'\n        self.size = 'm'\n        self.wetness = 0\n    \n    def __str__(self):\n        return f'color:{self.color}, tam: {self.size}, um: {self.wetness}'\n\n\ntowel = Towel('green', 'g') #objetos\ntoalha = Towel('red', 'p')\noutra = toalha\noutra.color = 'blue'\ntoalha.color = 'yellow'\n\n\nprint(towel.color)\nprint(towel.size)\nprint(towel.wetness)\n",
+            "content": "@@ -1,9 +1,8 @@\n-%0A\n class To\n@@ -134,286 +134,8 @@\n  = 0\n-%0A%0A    def dry(self, amount:int) -%3E None:%0A        self.wetness += amount%0A    def getMaxWetness (self) -%3E int:%0A        if self.size == 'p':%0A            return 10%0A        if self.size == 'm':%0A            return 20%0A        if self.size == 'g':%0A            return 30%0A        return 0\n %0A   \n@@ -161,15 +161,8 @@\n elf)\n- -%3E str\n :%0A  \n@@ -178,16 +178,18 @@\n urn f'co\n+lo\n r:%7Bself.\n@@ -200,16 +200,17 @@\n r%7D, tam:\n+ \n %7Bself.si\n@@ -217,16 +217,17 @@\n ze%7D, um:\n+ \n %7Bself.we\n@@ -238,22 +238,15 @@\n s%7D'%0A\n-       %0A%0Aminha\n+%0A%0Atowel\n  = T\n@@ -255,18 +255,18 @@\n el('\n-white\n+green\n ', '\n-m\n+g\n ') #\n@@ -277,43 +277,151 @@\n tos%0A\n-%0A#por que esse c%C3%B3digo tava t%C3%A3o longe...\n+toalha = Towel('red', 'p')%0Aoutra = toalha%0Aoutra.color = 'blue'%0Atoalha.color = 'yellow'%0A%0A%0Aprint(towel.color)%0Aprint(towel.size)%0Aprint(towel.wetness)%0A\n",
             "lines": "20"
+        },
+        {
+            "label": "2025-09-22_19-03-06",
+            "content": "@@ -566,20 +566,8 @@\n tos%0A\n-print(Towel)\n %0A#po\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-09-22_19-03-23",
+            "content": "@@ -566,82 +566,19 @@\n tos%0A\n-%0Adoguito = Towel ('blue', 'p')%0Aprint(doguito)%0Adoguito.dry(3)%0Aprint(doguito\n+print(Towel\n )%0A#p\n",
+            "lines": "25"
+        },
+        {
+            "label": "2025-09-22_19-05-00",
+            "content": "@@ -642,38 +642,8 @@\n to)%0A\n-doguito.dry(5)%0Aprint(doguito)%0A\n #por\n",
+            "lines": "29"
+        },
+        {
+            "label": "2025-09-22_19-05-20",
+            "content": "@@ -672,38 +672,8 @@\n to)%0A\n-doguito.dry(2)%0Aprint(doguito)%0A\n #por\n",
+            "lines": "31"
+        },
+        {
+            "label": "2025-09-22_19-05-42",
+            "content": "@@ -702,38 +702,8 @@\n to)%0A\n-doguito.dry(1)%0Aprint(doguito)%0A\n #por\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-09-22_19-06-17",
+            "content": "@@ -732,38 +732,8 @@\n to)%0A\n-doguito.dry(9)%0Aprint(doguito)%0A\n #por\n",
+            "lines": "35"
+        },
+        {
+            "label": "2025-09-22_19-07-14",
+            "content": "@@ -740,18 +740,17 @@\n ito.dry(\n-10\n+9\n )%0Aprint(\n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-22_19-07-24",
+            "content": "@@ -525,16 +525,44 @@\n       %0A%0A\n+minha = Towel('white', 'm') \n #objetos\n@@ -759,9 +759,46 @@\n oguito)%0A\n-%0A\n+#por que esse c%C3%B3digo tava t%C3%A3o longe...\n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-22_19-09-20",
+            "content": "@@ -76,19 +76,20 @@\n olor = '\n-blu\n+whit\n e'%0A     \n@@ -104,17 +104,17 @@\n size = '\n-p\n+m\n '%0A      \n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-22_19-09-40",
+            "content": "@@ -202,17 +202,16 @@\n  amount%0A\n-%0A\n     def \n@@ -523,132 +523,11 @@\n     \n+   \n-%0A    def isDry(self) -%3E bool:%0A        return self.wetness == 0%0A    %0A    def wringOut(self) -%3E None:%0A        self.wetness = 0\n %0A%0A#o\n@@ -715,16 +715,16 @@\n dry(10)%0A\n-\n print(do\n@@ -714,24 +714,25 @@\n .dry(10)%0Aprint(doguito)%0A\n+%0A\n",
+            "lines": "37"
+        },
+        {
+            "label": "2025-09-22_19-16-01",
+            "content": "@@ -690,43 +690,8 @@\n p')%0A\n-print(str(doguito) + 'est%C3%A1 velha')%0A\n prin\n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-22_19-19-22",
+            "content": "@@ -696,16 +696,34 @@\n int(\n-'amo vcs\n+str(doguito) + 'est%C3%A1 velha\n ')%0Ap\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-22_19-19-46",
+            "content": "@@ -703,8 +703,174 @@\n o vcs')%0A\n+print(doguito)%0Adoguito.dry(3)%0Aprint(doguito)%0Adoguito.dry(5)%0Aprint(doguito)%0Adoguito.dry(2)%0Aprint(doguito)%0Adoguito.dry(1)%0Aprint(doguito)%0Adoguito.dry(10)%0Aprint(doguito)%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-22_19-20-10",
+            "content": "@@ -696,164 +696,15 @@\n int(\n-doguito)%0Adoguito.dry(3)%0Aprint(doguito)%0Adoguito.dry(5)%0Aprint(doguito)%0Adoguito.dry(2)%0Aprint(doguito)%0Adoguito.dry(1)%0Aprint(doguito)%0Adoguito.dry(10)%0Aprint(doguito\n+'amo vcs'\n )%0A\n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-09-22_19-20-37",
+            "content": "@@ -856,27 +856,4 @@\n to)%0A\n-print(doguito.isDry())%0A\n",
+            "lines": "42"
+        },
+        {
+            "label": "2025-09-22_19-20-53",
+            "content": "@@ -650,31 +650,233 @@\n  0%0A%0A\n-def main():%0A    print('oi')\n+#objetos%0A%0Adoguito = Towel ('blue', 'p')%0Aprint(doguito)%0Adoguito.dry(3)%0Aprint(doguito)%0Adoguito.dry(5)%0Aprint(doguito)%0Adoguito.dry(2)%0Aprint(doguito)%0Adoguito.dry(1)%0Aprint(doguito)%0Adoguito.dry(10)%0Aprint(doguito)%0Aprint(doguito.isDry())%0A\n",
+            "lines": "43"
+        },
+        {
+            "label": "2025-09-22_19-22-50",
+            "content": "@@ -666,444 +666,15 @@\n     \n-toalha = Towel('','') #objeto manipulado%0A%0A    while True:%0A        line: str = input()%0A        args: list%5Bstr%5D = line.split('')%0A%0A        if args%5B0%5D == 'end':%0A            break%0A        elif args%5B0%5D == 'new': #color size%0A            color = args%5B1%5D%0A            size = args%5B2%5D%0A            toalha = Towel(color, size)%0A        elif args%5B0%5D == 'show':%0A            print(toalha)%0A        else: %0A            print('fail: comando invalido')%0A%0A%0A%0A%0Amain(\n+print('oi'\n )\n",
+            "lines": "30"
+        },
+        {
+            "label": "2025-09-22_19-31-29",
+            "content": "@@ -1037,121 +1037,8 @@\n ha)%0A\n-        elif args%5B0%5D == 'dry': # amount%0A            amount: int = int(args%5B1%5D)%0A            toalha.dry(amount)%0A%0A%0A%0A\n     \n",
+            "lines": "50"
+        },
+        {
+            "label": "2025-09-22_19-34-43",
+            "content": "@@ -661,11 +661,8 @@\n n():\n- #2\n %0A   \n@@ -702,18 +702,16 @@\n nipulado\n- 3\n %0A%0A    wh\n@@ -723,25 +723,8 @@\n rue:\n- #4 loop infinito\n %0A   \n@@ -751,28 +751,8 @@\n ut()\n- #5 entrada de linha\n %0A   \n@@ -792,29 +792,8 @@\n ('')\n- #6 lista de palavras\n %0A%0A  \n@@ -822,27 +822,8 @@\n nd':\n- #7 fim da execu%C3%A7%C3%A3o\n %0A   \n@@ -1144,16 +1144,18 @@\n mount)%0A%0A\n+%0A%0A\n         \n@@ -1164,33 +1164,8 @@\n se: \n-#8 comando n%C3%A3o encontrado\n %0A   \n@@ -1219,7 +1219,4 @@\n in()\n- #1\n",
+            "lines": "56"
+        },
+        {
+            "label": "2025-09-22_19-39-55",
+            "content": "\nclass Towel:\n    def __init__(self, color: str, size: str):\n        self.color = 'blue'\n        self.size = 'p'\n        self.wetness = 0\n\n    def dry(self, amount:int) -> None:\n        self.wetness += amount\n\n    def getMaxWetness (self) -> int:\n        if self.size == 'p':\n            return 10\n        if self.size == 'm':\n            return 20\n        if self.size == 'g':\n            return 30\n        return 0\n    \n    def __str__(self) -> str:\n        return f'cor:{self.color}, tam:{self.size}, um:{self.wetness}'\n    \n    def isDry(self) -> bool:\n        return self.wetness == 0\n    \n    def wringOut(self) -> None:\n        self.wetness = 0\n\ndef main(): #2\n    toalha = Towel('','') #objeto manipulado 3\n\n    while True: #4 loop infinito\n        line: str = input() #5 entrada de linha\n        args: list[str] = line.split('') #6 lista de palavras\n\n        if args[0] == 'end': #7 fim da execu\u00e7\u00e3o\n            break\n        elif args[0] == 'new': #color size\n            color = args[1]\n            size = args[2]\n            toalha = Towel(color, size)\n        elif args[0] == 'show':\n            print(toalha)\n        elif args[0] == 'dry': # amount\n            amount: int = int(args[1])\n            toalha.dry(amount)\n\n        else: #8 comando n\u00e3o encontrado\n            print('fail: comando invalido')\n\n\n\n\nmain() #1",
+            "lines": "54"
         }
     ]
 }
