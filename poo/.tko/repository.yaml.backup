@@ -8,7 +8,8 @@ database: database
 expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
-tasks: {}
+tasks:
+  toalha: '{rate:30, human:monitor, guide:aula, alone:1, study:35}'
 flags:
   quests: 0
   tracks: 0
