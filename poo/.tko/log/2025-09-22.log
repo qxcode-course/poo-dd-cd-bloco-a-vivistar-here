@@ -28,3 +28,5 @@
 2025-09-22 19:32:11, EXEC, v:1, k:toalha, mode:LOCK, rate:0
 2025-09-22 19:34:43, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:56
 2025-09-22 19:39:55, EXEC, v:1, k:toalha, mode:LOCK, rate:0, size:54
+2025-09-22 19:45:05, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-09-22 19:45:28, EXEC, v:1, k:toalha, mode:FREE

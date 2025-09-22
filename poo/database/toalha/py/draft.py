@@ -1,8 +1,8 @@
 
 class Towel:
     def __init__(self, color: str, size: str):
-        self.color = 'blue'
-        self.size = 'p'
+        self.color = color
+        self.size = size
         self.wetness = 0
 
     def dry(self, amount:int) -> None:
@@ -31,7 +31,7 @@ def main(): #2
 
     while True: #4 loop infinito
         line: str = input() #5 entrada de linha
-        args: list[str] = line.split('') #6 lista de palavras
+        args: list[str] = line.split(' ') #6 lista de palavras
 
         if args[0] == 'end': #7 fim da execução
             break
