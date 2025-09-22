@@ -3,14 +3,21 @@ class Towel:
         self.color = 'white'
         self.size = 'm'
         self.wetness = 0
-    
-    def __str__(self):
-        return f'color:{self.color}, tam: {self.size}, um: {self.wetness}'
-    def __use__(self, quantidade) #recebe o valor
-        self.wetness = quantidade #wtness aumenta pelo valor passado (ex:15, 20, etc)
-        print('Towel was used. Wetness at {self.wetness}' )
 
+        def dry(self, amount:int) -> None: # type: ignore
+            self.wetness += amount # type: ignore
+        def getMaxWetness (self) -> int: # type: ignore
+            if self.size == 'P': # type: ignore
+                return 10
+            if self.size == 'M': # type: ignore
+                return 20
+            if self.size == 'G': # type: ignore
+                return 30
+            
+    def __str__(self): #toString
+        return f'cor:{self.color}, tam:{self.size}, um:{self.wetness}'
+  
 
-towel = Towel('green', 'g') #objetos
+minha = Towel('white', 'm') #objetos
 
 #por que esse código tava tão longe...
