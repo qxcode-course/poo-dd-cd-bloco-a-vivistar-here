@@ -1,0 +1,19 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-23_19-12-42",
+            "content": "@@ -1,153 +0,0 @@\n-class Animal:%0A    def __init__ (self, species: str, sound: str):%0A        self.species = species%0A        self.sound = sound%0A        self.age = 0%0A    %0A    \n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-09-23_19-19-39",
+            "content": "@@ -23,16 +23,17 @@\n __init__\n+ \n (self, s\n@@ -58,16 +58,16 @@\n : str):%0A\n-\n         \n@@ -141,433 +141,13 @@\n = 0%0A\n-%0A    def __str__(self) -%3E str:%0A        return f'species:%7Bself.species%7D, sound:%7Bself.sound%7D, age:%7Bself.age%7D'%0A%0Adef main():%0A    animal: Animal = Animal (' ', ' ')%0A    while True:%0A        line = input()%0A        print(%22$%22 + line)%0A        args = line.split(' ')%0A%0A        if args%5B0%5D == 'end':%0A            break%0A        elif args%5B0%5D == 'show':%0A            print(Animal)%0A        else:%0A            print('fail: comando invalido')%0A%0A\n     \n+%0A\n     \n",
+            "lines": "7"
+        },
+        {
+            "label": "2025-09-23_20-07-55",
+            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species = species\n        self.sound = sound\n        self.age = 0\n\n    def __str__(self) -> str:\n        return f'species:{self.species}, sound:{self.sound}, age:{self.age}'\n\ndef main():\n    animal: Animal = Animal (' ', ' ')\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split(' ')\n\n        if args[0] == 'end':\n            break\n        elif args[0] == 'show':\n            print(Animal)\n        else:\n            print('fail: comando invalido')\n\n        ",
+            "lines": "24"
+        }
+    ]
+}
