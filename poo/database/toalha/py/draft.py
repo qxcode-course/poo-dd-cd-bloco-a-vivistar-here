@@ -49,6 +49,4 @@ def main(): #2
             print('fail: comando invalido')
 
 
-
-
 main() #1
