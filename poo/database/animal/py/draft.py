@@ -31,11 +31,17 @@ def main():
 
         if args[0] == "end":
             break
-        elif args[0] == "init":
+        elif args[0] == "new":
             species: str = args[1]
             sound: str = args[2]
             animal = Animal(species, sound)
-        elif args
+        elif args[0] == "grow":
+            increment: int = int(args[1])
+            animal.ageBy(increment)
+        elif args[0] == "noise":
+            print(animal.makeSound())
+        elif args[0] == "show":
+            print(animal)
 
 main()
 
