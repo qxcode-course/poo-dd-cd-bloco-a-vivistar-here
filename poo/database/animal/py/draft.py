@@ -20,8 +20,6 @@ class Animal:
         return f'species:{self.species}, sound:{self.sound}, age:{self.age}'
 
 
-
-
 def main():
     animal: Animal = Animal(" "," ")
     while True:
@@ -38,10 +36,12 @@ def main():
         elif args[0] == "grow":
             increment: int = int(args[1])
             animal.ageBy(increment)
-        elif args[0] == "noise":
+        elif args[0] == "sound":
             print(animal.makeSound())
         elif args[0] == "show":
             print(animal)
+        else:
+            print("$show")
 
 main()
 
