@@ -9,8 +9,9 @@ expanded:
 - campanha-principal
 - bloco_b-primeiras-classes
 tasks:
-  toalha: '{rate:100, human:monitor, guide:aula, alone:5, study:74}'
+  toalha: '{rate:100, human:monitor, guide:aula, alone:10, study:74}'
   animal: '{human:amigo, alone:2, study:40}'
+  enxugar: '{rate:100, human:amigo, guide:video_aula, alone:10, study:75}'
 flags:
   quests: 0
   tracks: 0

@@ -11,3 +11,64 @@
 2025-10-02 16:30:13, SELF, v:1, k:toalha, rate:100, human:monitor, guide:aula, alone:5, study:74
 2025-10-02 16:30:19, MOVE, v:1, k:animal, mode:PICK
 2025-10-02 16:30:21, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-02 16:31:21, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 16:31:26, MOVE, v:1, k:enxugar, mode:DOWN
+2025-10-02 16:31:30, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-02 16:31:32, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:0
+2025-10-02 16:32:12, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:51
+2025-10-02 16:38:35, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:12
+2025-10-02 16:39:06, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:39:34, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:40:00, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:14
+2025-10-02 16:40:01, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-02 16:40:44, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:41:04, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:41:24, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:41:37, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:13
+2025-10-02 16:45:10, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:58
+2025-10-02 17:01:33, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:49
+2025-10-02 17:02:43, EXEC, v:1, k:enxugar, mode:FREE
+2025-10-02 17:16:14, EXEC, v:1, k:enxugar, mode:FREE, size:52
+2025-10-02 17:16:58, EXEC, v:1, k:enxugar, mode:FREE
+2025-10-02 17:23:49, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-02 17:26:16, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:55
+2025-10-02 17:27:18, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:56
+2025-10-02 17:27:37, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:56
+2025-10-02 17:27:46, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-02 17:28:09, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:56
+2025-10-02 17:28:31, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:56
+2025-10-02 17:28:39, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-02 17:30:01, EXEC, v:1, k:enxugar, mode:FULL, rate:0
+2025-10-02 17:30:31, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:56
+2025-10-02 17:31:06, EXEC, v:1, k:enxugar, mode:FULL, rate:20, size:55
+2025-10-02 17:32:10, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:55
+2025-10-02 17:34:37, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:57
+2025-10-02 17:36:02, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:60
+2025-10-02 17:36:33, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:59
+2025-10-02 17:37:21, EXEC, v:1, k:enxugar, mode:FULL, rate:0, size:59
+2025-10-02 17:37:34, EXEC, v:1, k:enxugar, mode:FULL, rate:30, size:59
+2025-10-02 17:42:36, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:59
+2025-10-02 17:42:52, EXEC, v:1, k:enxugar, mode:FULL, rate:60, size:59
+2025-10-02 17:43:14, EXEC, v:1, k:enxugar, mode:FULL, rate:90, size:59
+2025-10-02 17:43:43, EXEC, v:1, k:enxugar, mode:FULL, rate:40, size:59
+2025-10-02 17:43:49, EXEC, v:1, k:enxugar, mode:FULL, rate:90, size:59
+2025-10-02 17:45:54, EXEC, v:1, k:enxugar, mode:FULL, rate:100, size:61
+2025-10-02 17:45:59, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-02 17:46:11, EXEC, v:1, k:enxugar, mode:FREE
+2025-10-02 17:47:37, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-02 17:48:29, SELF, v:1, k:enxugar, rate:100, human:amigo, guide:video_aula, alone:2, study:75
+2025-10-02 17:48:41, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-02 17:48:44, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-02 17:48:45, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-02 17:48:46, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-02 17:48:47, MOVE, v:1, k:enxugar, mode:BACK
+2025-10-02 17:49:21, SELF, v:1, k:enxugar, rate:100, human:amigo, guide:video_aula, alone:10, study:75
+2025-10-02 17:49:26, MOVE, v:1, k:toalha, mode:PICK
+2025-10-02 17:49:27, EXEC, v:1, k:toalha, mode:LOCK, rate:0
+2025-10-02 17:49:30, MOVE, v:1, k:toalha, mode:BACK
+2025-10-02 17:49:39, SELF, v:1, k:toalha, rate:100, human:monitor, guide:aula, alone:10, study:74
+2025-10-02 17:49:39, MOVE, v:1, k:toalha, mode:PICK
+2025-10-02 17:49:40, MOVE, v:1, k:toalha, mode:BACK
+2025-10-02 17:49:43, MOVE, v:1, k:toalha, mode:PICK
+2025-10-02 17:49:45, MOVE, v:1, k:toalha, mode:BACK
+2025-10-02 17:49:55, SELF, v:1, k:toalha, rate:100, human:monitor, guide:aula, alone:10, study:74
