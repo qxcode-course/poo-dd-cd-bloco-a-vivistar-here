@@ -4,8 +4,16 @@ class Animal:
         self.sound = sound
         self.age = 0
 
+    def ageBye(self, increment: int) -> None:
+        self.age += increment
+        if self.age >= 4:
+            print(f"Warning:{self.species} morreu")
+
     def __str__(self) -> str:
         return f'species:{self.species}, sound:{self.sound}, age:{self.age}'
+
+
+
 
 def main():
     
@@ -20,5 +28,7 @@ def main():
             print(Animal)
         else:
             print('fail: comando invalido')
+
+main()
 
         
