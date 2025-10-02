@@ -96,3 +96,13 @@
 2025-10-02 19:10:41, EXEC, v:1, k:animal, mode:FULL, rate:0
 2025-10-02 19:11:13, EXEC, v:1, k:animal, mode:FULL, rate:0, size:48
 2025-10-02 19:11:56, EXEC, v:1, k:animal, mode:FULL, rate:0, size:48
+2025-10-02 19:24:14, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 19:24:26, MOVE, v:1, k:carro, mode:DOWN
+2025-10-02 19:24:51, MOVE, v:1, k:carro, mode:PICK
+2025-10-02 19:24:53, EXEC, v:1, k:carro, mode:FULL, rate:0, size:0
+2025-10-02 19:25:09, MOVE, v:1, k:carro, mode:BACK
+2025-10-02 19:26:04, SELF, v:1, k:animal, human:amigo, guide:video, alone:3, study:40
+2025-10-02 19:26:46, SELF, v:1, k:animal, human:amigo, guide:video, alone:3, study:40
+2025-10-02 19:26:46, MOVE, v:1, k:animal, mode:PICK
+2025-10-02 19:26:47, MOVE, v:1, k:animal, mode:BACK
+2025-10-02 19:26:55, MOVE, v:1, k:carro, mode:PICK

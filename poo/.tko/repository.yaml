@@ -10,7 +10,7 @@ expanded:
 - bloco_b-primeiras-classes
 tasks:
   toalha: '{rate:100, human:monitor, guide:aula, alone:10, study:74}'
-  animal: '{human:amigo, alone:2, study:40}'
+  animal: '{human:amigo, guide:video, alone:3, study:40}'
   enxugar: '{rate:100, human:amigo, guide:video_aula, alone:10, study:75}'
 flags:
   quests: 0
@@ -18,4 +18,4 @@ flags:
   tasks: 0
   graph: 0
   xray: 0
-index: animal
+index: carro
