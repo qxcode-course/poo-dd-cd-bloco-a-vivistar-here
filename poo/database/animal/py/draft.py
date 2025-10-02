@@ -8,7 +8,7 @@ class Animal:
         return f'species:{self.species}, sound:{self.sound}, age:{self.age}'
 
 def main():
-    animal: Animal = Animal (' ', ' ')
+    
     while True:
         line = input()
         print("$" + line)

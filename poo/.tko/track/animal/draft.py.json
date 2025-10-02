@@ -12,7 +12,17 @@
         },
         {
             "label": "2025-09-23_20-07-55",
-            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species = species\n        self.sound = sound\n        self.age = 0\n\n    def __str__(self) -> str:\n        return f'species:{self.species}, sound:{self.sound}, age:{self.age}'\n\ndef main():\n    animal: Animal = Animal (' ', ' ')\n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split(' ')\n\n        if args[0] == 'end':\n            break\n        elif args[0] == 'show':\n            print(Animal)\n        else:\n            print('fail: comando invalido')\n\n        ",
+            "content": "@@ -299,23 +299,8 @@\n ' ')\n- # type: ignore\n %0A   \n",
+            "lines": "24"
+        },
+        {
+            "label": "2025-09-30_16-05-24",
+            "content": "@@ -261,16 +261,65 @@\n ():%0A    \n+animal: Animal = Animal (' ', ' ') # type: ignore\n %0A    whi\n",
+            "lines": "24"
+        },
+        {
+            "label": "2025-10-02_13-27-33",
+            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species = species\n        self.sound = sound\n        self.age = 0\n\n    def __str__(self) -> str:\n        return f'species:{self.species}, sound:{self.sound}, age:{self.age}'\n\ndef main():\n    \n    while True:\n        line = input()\n        print(\"$\" + line)\n        args = line.split(' ')\n\n        if args[0] == 'end':\n            break\n        elif args[0] == 'show':\n            print(Animal)\n        else:\n            print('fail: comando invalido')\n\n        ",
             "lines": "24"
         }
     ]

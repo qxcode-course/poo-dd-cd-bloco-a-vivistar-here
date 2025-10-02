@@ -1,4 +1,5 @@
 
+
 class Towel:
     def __init__(self, color: str, size: str):
         self.color = color
