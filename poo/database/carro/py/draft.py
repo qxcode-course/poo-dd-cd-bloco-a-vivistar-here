@@ -28,4 +28,17 @@ class Carro:
         self.gas += amount
         if self.gas > self.gasMax:
             self.gas = self.gasMax
-            
+
+    def dirigir(self):
+        if self.pass_ == 0:
+            print("fail: nao ha ninguem no carro")
+            return
+        if self.gas == 0:
+            print("tanque vazio")
+            return
+        else:
+            self.km += self.gas
+            print("fail: tanque vazio após andar {self.gas} km")
+            self.gas = 0
+
+    
