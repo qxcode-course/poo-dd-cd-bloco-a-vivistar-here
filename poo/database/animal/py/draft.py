@@ -7,7 +7,7 @@ class Animal:
     def ageBy(self, increment: int) -> None:
         self.age += increment
         if self.age >= 4:
-            print(f"Warning:{self.species} morreu")
+            print(f"warning: {self.species} morreu")
             self.age = 4
 
     def makeSound(self = str):
