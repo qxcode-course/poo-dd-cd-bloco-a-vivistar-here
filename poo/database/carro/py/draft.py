@@ -18,4 +18,9 @@ class Carro:
         else:
             print("fail: limite de pessoas atingido")
 
+    def sair(self):
+        if self.pass_ > 0:
+            self.pass_ -= 1
+        else:
+            print("fail: nao ha ninguem no carro")
             
