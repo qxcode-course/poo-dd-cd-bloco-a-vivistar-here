@@ -9,4 +9,13 @@ class Carro:
     def __str__(self):
         return f"pass:{self.pass_}, gas:{self.gas}, km:{self.km}"
 
-        
+    def mostrar(self):
+        print(self)
+
+    def entrar(self):
+        if self.pass_ < self.passMax:
+            self.pass_ += 1
+        else:
+            print("fail: limite de pessoas atingido")
+
+            
