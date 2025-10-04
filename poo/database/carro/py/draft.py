@@ -23,4 +23,9 @@ class Carro:
             self.pass_ -= 1
         else:
             print("fail: nao ha ninguem no carro")
- 
+          
+    def abastecer(self, amount: int) -> None:
+        self.gas += amount
+        if self.gas > self.gasMax:
+            self.gas = self.gasMax
+            
