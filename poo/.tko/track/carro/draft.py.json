@@ -2,8 +2,18 @@
     "patches": [
         {
             "label": "2025-10-02_19-24-53",
-            "content": "",
+            "content": "@@ -1,259 +0,0 @@\n-class Carro:%0A    def __init__(self):%0A        self.pass_ = 0%0A        self.km = 0%0A        self.passMax = 2%0A        self.gas = 0%0A        self.gasMax = 100%0A        %0A    def __str__(self):%0A        return f%22pass:%7Bself.pass_%7D, gas:%7Bself.gas%7D, km:%7Bself.km%7D%22%0A%0A        \n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-04_20-51-07",
+            "content": "@@ -248,31 +248,8 @@\n %7D%22%0A%0A\n-    def mostrar(self):%0A\n     \n",
+            "lines": "12"
+        },
+        {
+            "label": "2025-10-04_20-54-34",
+            "content": "class Carro:\n    def __init__(self):\n        self.pass_ = 0\n        self.km = 0\n        self.passMax = 2\n        self.gas = 0\n        self.gasMax = 100\n        \n    def __str__(self):\n        return f\"pass:{self.pass_}, gas:{self.gas}, km:{self.km}\"\n\n    def mostrar(self):\n        ",
+            "lines": "13"
         }
     ]
 }
