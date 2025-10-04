@@ -23,4 +23,4 @@ class Carro:
             self.pass_ -= 1
         else:
             print("fail: nao ha ninguem no carro")
-            
+ 
