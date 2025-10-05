@@ -41,4 +41,25 @@ class Carro:
             print("fail: tanque vazio após andar {self.gas} km")
             self.gas = 0
 
-    
+def main():
+    carro = Carro()
+    while True:
+        line: str = input()
+        print("$" + line)
+        args: list[str] = line.split(" ")
+
+        if args[0] == "end":
+            break
+        elif args[0] == "show":
+            print(carro)
+        elif args[0] == "entrar":
+            carro.entrar()
+        elif args[0] == "sair":
+            carro.sair()
+        elif args[0] == "abastecer":
+            
+
+
+
+
+    main()
