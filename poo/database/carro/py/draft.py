@@ -29,7 +29,7 @@ class Carro:
         if self.gas > self.gasMax:
             self.gas = self.gasMax
 
-    def dirigir(self):
+    def dirigir(self, distancia: int):
         if self.pass_ == 0:
             print("fail: nao ha ninguem no carro")
             return
