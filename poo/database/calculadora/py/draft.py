@@ -11,7 +11,7 @@ class Calculadora:
 
     def sum(self, a: int, b: int):
         if self.battery == 0:
-            print("bateria insuficiente")
+            print("fail: rbateria insuficiente")
             return
         self.battery -= 1
         self.display =  a + b
@@ -28,7 +28,7 @@ class Calculadora:
         self.display = num / den
 
     def __str__(self):
-        return f"display = {self.display}, battery = {self.battery}"
+        return f"display = {self.display:.2f}, battery = {self.battery}"
     
 def main():
     calculadora = Calculadora(0)
