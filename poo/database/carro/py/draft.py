@@ -9,41 +9,41 @@ class Carro:
     def __str__(self):
         return f"pass: {self.pass_}, gas: {self.gas}, km: {self.km}"
 
-    def mostrar(self):
+    def show(self):
         print(self)
 
-    def entrar(self):
-        if self.pass_ < self.passMax:
-            self.pass_ += 1
-        else:
+    def enter(self):
+        if self.pass_ >= self.passMax:
             print("fail: limite de pessoas atingido")
-
-    def sair(self):
-        if self.pass_ > 0:
-            self.pass_ -= 1
         else:
+            self.pass_ += 1
+
+    def leave(self):
+        if self.pass_ == 0:
             print("fail: nao ha ninguem no carro")
+        else:
+            self.pass_ -= 1
           
-    def abastecer(self, amount: int) -> None:
+    def fuel(self, amount: int) -> None:
         self.gas += amount
         if self.gas > self.gasMax:
             self.gas = self.gasMax
 
-    def dirigir(self, distancia: int):
+    def drive(self, distancia: int):
         if self.pass_ == 0:
             print("fail: nao ha ninguem no carro")
             return
         if self.gas == 0:
-            print("tanque vazio")
+            print("fail: tanque vazio")
             return
         if self.gas < distancia:
             dirigido = self.gas
             self.km += dirigido
             self.gas = 0
+            print(f"fail: tanque vazio apos andar {dirigido} km")
         else:
             self.km += distancia
             self.gas -= distancia
-            print("fail: tanque vazio apos andar {self.gas} km")
         
 
 def main():
@@ -57,18 +57,18 @@ def main():
             break
         elif args[0] == "show":
             print(carro)
-        elif args[0] == "entrar":
-            carro.entrar()
-        elif args[0] == "sair":
-            carro.sair()
-        elif args[0] == "abastecer":
+        elif args[0] == "enter":
+            carro.enter()
+        elif args[0] == "leave":
+            carro.leave()
+        elif args[0] == "fuel":
             if args[1:]:
-                carro.abastecer(int(args[1]))
+                carro.fuel(int(args[1]))
             else:
                 print("fail: comando invalido")
-        elif args[0] == "dirigir":
+        elif args[0] == "drive":
             if args[1:]:
-                carro.dirigir(int(args[1]))
+                carro.drive(int(args[1]))
             else:
                 print("fail: comando invalido")
 
