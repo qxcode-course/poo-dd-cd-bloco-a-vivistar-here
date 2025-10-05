@@ -13,6 +13,7 @@ tasks:
   animal: '{rate:100, human:amigo, guide:video, alone:10, study:60}'
   carro: '{rate:100, human:amigo, iagen:copilot_pra_corrigir, other:shell, alone:7,
     study:45}'
+  calculadora: '{rate:100, human:amigo, iagen:copilot_para_correcao, alone:8, study:50}'
   enxugar: '{rate:100, human:amigo, guide:video_aula, alone:10, study:75}'
 flags:
   quests: 0
