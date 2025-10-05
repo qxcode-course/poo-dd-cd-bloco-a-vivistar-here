@@ -17,8 +17,13 @@
         },
         {
             "label": "2025-10-04_21-02-18",
-            "content": "class Carro:\n    def __init__(self):\n        self.pass_ = 0\n        self.km = 0\n        self.passMax = 2\n        self.gas = 0\n        self.gasMax = 100\n        \n    def __str__(self):\n        return f\"pass:{self.pass_}, gas:{self.gas}, km:{self.km}\"\n\n    def mostrar(self):\n        print(self)\n\n    def entrar(self):\n        if self.pass_ < self.passMax:\n            self.pass_ += 1\n        else:\n            print(\"fail: limite de pessoas atingido\")\n\n    def sair(self):\n        if self.pass_ > 0:\n            self.pass_ -= 1\n        else:\n            print(\"fail: nao ha ninguem no carro\")\n            ",
+            "content": "@@ -597,492 +597,8 @@\n     \n-  %0A    def abastecer(self, amount: int) -%3E None:%0A        self.gas += amount%0A        if self.gas %3E self.gasMax:%0A            self.gas = self.gasMax%0A%0A    def dirigir(self):%0A        if self.pass_ == 0:%0A            print(%22fail: nao ha ninguem no carro%22)%0A            return%0A        if self.gas == 0:%0A            print(%22tanque vazio%22)%0A            return%0A        else:%0A            self.km += self.gas%0A            print(%22fail: tanque vazio ap%C3%B3s andar %7Bself.gas%7D km%22)%0A            self.gas = 0%0A%0A\n     \n",
             "lines": "26"
+        },
+        {
+            "label": "2025-10-04_23-19-45",
+            "content": "class Carro:\n    def __init__(self):\n        self.pass_ = 0\n        self.km = 0\n        self.passMax = 2\n        self.gas = 0\n        self.gasMax = 100\n        \n    def __str__(self):\n        return f\"pass:{self.pass_}, gas:{self.gas}, km:{self.km}\"\n\n    def mostrar(self):\n        print(self)\n\n    def entrar(self):\n        if self.pass_ < self.passMax:\n            self.pass_ += 1\n        else:\n            print(\"fail: limite de pessoas atingido\")\n\n    def sair(self):\n        if self.pass_ > 0:\n            self.pass_ -= 1\n        else:\n            print(\"fail: nao ha ninguem no carro\")\n          \n    def abastecer(self, amount: int) -> None:\n        self.gas += amount\n        if self.gas > self.gasMax:\n            self.gas = self.gasMax\n\n    def dirigir(self):\n        if self.pass_ == 0:\n            print(\"fail: nao ha ninguem no carro\")\n            return\n        if self.gas == 0:\n            print(\"tanque vazio\")\n            return\n        else:\n            self.km += self.gas\n            print(\"fail: tanque vazio ap\u00f3s andar {self.gas} km\")\n            self.gas = 0\n\n    ",
+            "lines": "44"
         }
     ]
 }

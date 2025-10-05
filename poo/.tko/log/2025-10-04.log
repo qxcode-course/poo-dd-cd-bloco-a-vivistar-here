@@ -36,3 +36,6 @@
 2025-10-04 20:54:34, EXEC, v:1, k:carro, mode:FULL, rate:0, size:13
 2025-10-04 20:54:38, EXEC, v:1, k:carro, mode:FULL, rate:0
 2025-10-04 21:02:18, EXEC, v:1, k:carro, mode:FULL, rate:0, size:26
+2025-10-04 23:19:34, MOVE, v:1, k:carro, mode:PICK
+2025-10-04 23:19:45, EXEC, v:1, k:carro, mode:FULL, rate:0, size:44
+2025-10-04 23:19:48, EXEC, v:1, k:carro, mode:FULL, rate:0
