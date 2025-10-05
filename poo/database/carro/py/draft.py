@@ -7,7 +7,7 @@ class Carro:
         self.gasMax = 100
         
     def __str__(self):
-        return f"pass:{self.pass_}, gas:{self.gas}, km:{self.km}"
+        return f"pass: {self.pass_}, gas: {self.gas}, km: {self.km}"
 
     def mostrar(self):
         print(self)
@@ -36,10 +36,15 @@ class Carro:
         if self.gas == 0:
             print("tanque vazio")
             return
-        else:
-            self.km += self.gas
-            print("fail: tanque vazio após andar {self.gas} km")
+        if self.gas < distancia:
+            dirigido = self.gas
+            self.km += dirigido
             self.gas = 0
+        else:
+            self.km += distancia
+            self.gas -= distancia
+            print("fail: tanque vazio apos andar {self.gas} km")
+        
 
 def main():
     carro = Carro()
@@ -63,6 +68,8 @@ def main():
                 print("fail: comando invalido")
         elif args[0] == "dirigir":
             if args[1:]:
-                carro.dirigir(int([args]))
+                carro.dirigir(int(args[1]))
             else:
                 print("fail: comando invalido")
+
+main()
