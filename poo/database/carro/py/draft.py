@@ -57,9 +57,12 @@ def main():
         elif args[0] == "sair":
             carro.sair()
         elif args[0] == "abastecer":
-            
-
-
-
-
-    main()
+            if args[1:]:
+                carro.abastecer(int(args[1]))
+            else:
+                print("fail: comando invalido")
+        elif args[0] == "dirigir":
+            if args[1:]:
+                carro.dirigir(int([args]))
+            else:
+                print("fail: comando invalido")
